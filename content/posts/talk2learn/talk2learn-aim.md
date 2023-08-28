@@ -5,10 +5,9 @@ draft: true
 toc: false
 images:
 categories:
-  - talk2learn
+  - projects
 tags:
   - talk2learn
-  - projects
 ---
 Learning a language is not easy. We tend to take our ability to verbally communicate without misunderstandings for granted because it appears to be one that we are born with. After all, it is difficult to question the functioning of a system that is so deeply embedded in human society. However, language is as complex as it is crucial, hiding layers of syntactical intricacy, semantic nuance, and social stigma beneath its deceptively natural textual and phonetic interface. For instance, while reading this paragraph, are you consciously parsing each sentence for meaning or simply…”understanding” subconsciously?
 

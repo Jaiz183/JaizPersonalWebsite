@@ -1,5 +1,5 @@
 baseurl      = "/"
-title        = "My Blog"
+title        = "Jaiz Jeeson's Personal Website"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
@@ -20,15 +20,32 @@ paginate     = 10
   disableReadOtherPosts = true
 
   # Enable sharing buttons, if you like
-  enableSharingButtons = true
+  enableSharingButtons = false
   
   # Show a global language switcher in the navigation bar
   enableGlobalLanguageMenu = false
 
   # Metadata mostly used in document's head
-  description = "My personal website."
+  description = "Jaiz's personal website."
   keywords = ""
   images = [""]
+
+  # Social icons
+  [[params.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/jaiz-jeeson-8b388b1b2/"
+  
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/Jaiz183"
+  
+  [[params.social]]
+    name = "email"
+    url = "jaizepic@gmail.com"
+  
+  [[params.social]]
+    name = "anilist"
+    url = "https://anilist.co/activity/612870322"
 
 [taxonomies]
     category = "categories"
@@ -60,5 +77,5 @@ paginate     = 10
   [[menu.main]]
     identifier = "projects"
     name       = "Projects"
-    url        = "/tags/projects"
+    url        = "/categories/projects"
   
