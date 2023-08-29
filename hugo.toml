@@ -15,7 +15,7 @@ paginate     = 10
   customJS  = ["/js/Home.js"]
 
   # Subtitle for home
-  homeSubtitle = "CS undergrad and professional daydreamer."
+  homeSubtitle = "CS undergrad // Professional daydreamer"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = true
@@ -31,7 +31,31 @@ paginate     = 10
   keywords = ""
   images = [""]
 
+  # Colors for favicons
+  #
+  [params.favicon.color]
+    mask = "#1b1c1d"
+    msapplication = "#1b1c1d"
+    theme = "#1b1c1d"
+
+  [params.logo]
+    logoMark     = ">"
+    logoText     = "$ /home/"
+    logoHomeLink = "/"
+    # Set true to remove the logo cursor entirely.
+    logoCursorDisabled = false
+    # Set to a valid CSS color to change the cursor in the logo.
+    # logoCursorColor    = "#67a2c9"
+    # Set to a valid CSS time value to change the animation duration, "0s" to disable.
+    # logoCursorAnimate  = "2s"
+    # Append the current url pathname to logoText 
+    logoCursorPathname = true
+
   # Social icons
+  [[params.social]]
+  name = "email"
+  url = "jaizepic@gmail.com"
+
   [[params.social]]
     name = "linkedin"
     url = "https://www.linkedin.com/in/jaiz-jeeson-8b388b1b2/"
@@ -39,14 +63,6 @@ paginate     = 10
   [[params.social]]
     name = "github"
     url = "https://github.com/Jaiz183"
-  
-  [[params.social]]
-    name = "email"
-    url = "jaizepic@gmail.com"
-  
-  [[params.social]]
-    name = "anilist"
-    url = "https://anilist.co/activity/612870322"
 
 [taxonomies]
     category = "categories"
@@ -61,14 +77,6 @@ paginate     = 10
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
 
-    [languages.en.params.logo]
-      logoText = "cd ~"
-      logoHomeLink = "/"
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
-
   # Add menus here!
   [[menu.main]]
     identifier = "posts"
@@ -76,7 +84,7 @@ paginate     = 10
     url        = "/posts"
 
   [[menu.main]]
-    identifier = "projects"
-    name       = "Projects"
-    url        = "/categories/projects"
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
   

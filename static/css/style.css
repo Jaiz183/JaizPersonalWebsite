@@ -3,6 +3,7 @@
   position: relative;
   opacity: 1;
   animation: blink 1s infinite;
+  color: #fe5186;
 }
 
 /* The typewriter cursor effect */
