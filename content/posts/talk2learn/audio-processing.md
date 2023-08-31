@@ -2,6 +2,13 @@
 title: "[Talk2learn] Audio Processing"
 date: 2023-08-29T15:28:17+08:00
 draft: true
+images: ["content/posts/talk2learn/images/abstracted_speech_pipeline.png"]
+categories:
+  - projects
+tags:
+  - talk2learn
+toc: false
+cover:
 ---
 
 I’ve always been more of a writer than a talker. When I started this project, I entered my first meeting with my mentor, Jobin, believing that we would transcribe speech and compare the transcription to a letter. Far from this, Talk2Learn uses CMUSphinx’s speech pipelines to compare raw audio signals, no intermediary required. How does that work? Well, let’s take it one step at a time, starting at what a speech pipeline is.
@@ -28,7 +35,6 @@ A speech pipeline is a series of processors that perform computations on audio d
 Ok, that looks intimidating, so let’s simplify it:
 
 ![abstract_speech_pipeline](https://i.imgur.com/wZzoT2I.png)
-
 Think of a pipeline as sequence of buckets. Every time a piece of audio data, say a ball, passes through a bucket, it changes little by little, until it is unrecognisable by the end.
 
 The mic sucks up the ball and the dataBlocker bucket divvies it up. Instead of handling one massive ball every couple of seconds, the pipeline can handle balls more manageably-sized balls continuously. The smaller balls then pass through the speechClassifier and speechMarker machines. Working together, they package smaller balls. Wait, that seems counter-productive. Why return to bigger chunks? Well, initially, the balls are dropped in randomly. However, these machines are intelligent. They identify balls that belong together, i.e., group audio data that belong to the same block of speech.

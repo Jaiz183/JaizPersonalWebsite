@@ -7,8 +7,8 @@ paginate     = 10
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04"
+  dateformNum     = "02/01/2006"
+  dateformNumTime = "02/01/2006 15:04"
 
   # Paths to custom CSS and JS files.
   customCSS = ["/css/style.css"]
@@ -21,10 +21,12 @@ paginate     = 10
   disableReadOtherPosts = true
 
   # Enable sharing buttons, if you like
-  enableSharingButtons = false
+  enableSharingButtons = true
   
   # Show a global language switcher in the navigation bar
   enableGlobalLanguageMenu = false
+
+  backgroundImage = ""
 
   # Metadata mostly used in document's head
   description = "Jaiz's personal website."
@@ -81,7 +83,12 @@ paginate     = 10
   [[menu.main]]
     identifier = "posts"
     name       = "Posts"
-    url        = "/posts"
+    url        = "posts/"
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "categories/projects/"
 
   [[menu.main]]
     identifier = "about"
