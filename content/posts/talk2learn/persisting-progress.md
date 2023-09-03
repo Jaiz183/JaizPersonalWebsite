@@ -24,6 +24,6 @@ Logically, it’d be great if you could do something else while waiting for such
 
 Now, you may be thinking, why wouldn’t you just open one database connection, period? Just as database operations are expensive, having a database open for an elongated period creates security and privacy vulnerabilities.
 
-I would advise against opening database connections repeatedly. Instead, open a single connection for each user session. If you must re-open database connections, try cleaning up before navigation and avoiding default disposal to avoid timing issues. On that note, do **not** use local files to store data that must be accessed frequently. Store file locations to access media. If you thought database operations seemed like trouble, you’re going to look end up like this guy while waiting for file retrieval:
+I would advise against opening database connections repeatedly. Instead, open a single connection for each user session. If you must re-open database connections, try cleaning up before navigation and avoiding default disposal to avoid timing issues. On that note, do **not** use local files to store data that must be accessed frequently. Store file locations to access media. If you thought database operations seemed like trouble, you’re going to end up looking like these guys while waiting for file retrieval:
 
 ![berserk_skeleton_meme](https://i.imgur.com/toBxgDK.gif)

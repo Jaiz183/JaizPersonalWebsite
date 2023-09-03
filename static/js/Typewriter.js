@@ -1,5 +1,5 @@
 var title = "";
-let speed = 200;
+let speed = 250;
 var i = 0;
 
 document.addEventListener("readystatechange", function () {

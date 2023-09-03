@@ -1,5 +1,6 @@
 {{ define "main" }}
     <main class="post">
+        <script src='{{ "/js/Typewriter.js" | relURL }}'></script>
 
         <div class="post-info">
             {{ if .IsTranslated }}
@@ -12,7 +13,15 @@
         </div>
 
         <article>
-            <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
+            {{ if eq .Title "About" }}
+            <h2 class="post-title blinking-cursor">
+                <a href="{{ .Permalink }}" id="title">{{ .Title | markdownify }}</a>
+            </h2>
+            {{ else }}
+            <h2 class="post-title">
+                <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+            </h2>
+            {{ end }}
 
             {{ if .Params.Cover }}
                 <figure class="post-cover">

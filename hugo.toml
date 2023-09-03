@@ -15,7 +15,7 @@ paginate     = 10
   customJS  = ["/js/Home.js"]
 
   # Subtitle for home
-  homeSubtitle = "CS undergrad // Professional daydreamer"
+  homeSubtitle = "CS undergrad | Professional Daydreamer"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = true

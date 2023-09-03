@@ -2,9 +2,12 @@
 
 <main class="posts">
   <script src="/js/Typewriter.js"></script>
-  <h1 id="title" class="blinking-cursor">{{ title .Title }}</h1>
 
-  {{ if .Content }}
+  {{ if eq .Title "projects"}}
+  <h1 id="title" class="blinking-cursor">{{ title .Title }}</h1>
+  {{ else }}
+  <h1 id="title" class="blinking-cursor">{{ .Title }}</h1>
+  {{ end }} {{ if .Content }}
   <div class="content">{{ .Content }}</div>
   {{ end }} {{ range $paginator.Pages.GroupByDate "2006" }}
   <div class="posts-group">
