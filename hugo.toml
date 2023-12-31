@@ -11,8 +11,8 @@ paginate     = 10
   dateformNumTime = "02/01/2006 15:04"
 
   # Paths to custom CSS and JS files.
-  customCSS = ["/css/style.css"]
-  customJS  = ["/js/Home.js"]
+  customCSS = ["css/style.css"]
+  customJS  = ["js/Typewriter.js"]
 
   # Subtitle for home
   homeSubtitle = "CS undergrad | Professional Daydreamer"
