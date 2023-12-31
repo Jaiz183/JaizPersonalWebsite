@@ -1,7 +1,7 @@
 ---
 title: "[Talk2learn] Audio Processing"
 date: 2023-08-29T15:28:17+08:00
-draft: true
+draft: false
 images: ["content/posts/talk2learn/images/abstracted_speech_pipeline.png"]
 categories:
   - projects

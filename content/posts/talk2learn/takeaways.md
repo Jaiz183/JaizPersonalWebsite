@@ -1,7 +1,7 @@
 ---
 title: "[Talk2Learn] Takeaways"
 date: 2023-09-03T17:52:39+08:00
-draft: true
+draft: false
 toc: true
 images:
 categories:

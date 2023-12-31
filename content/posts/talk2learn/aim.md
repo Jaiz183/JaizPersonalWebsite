@@ -1,7 +1,7 @@
 ---
 title: "[Talk2Learn] Aim"
 date: 2023-08-25T15:40:27+08:00
-draft: true
+draft: false
 toc: false
 images:
 categories:

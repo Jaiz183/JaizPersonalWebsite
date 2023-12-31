@@ -1,7 +1,7 @@
 ---
 title: "[Talk2Learn] Persisting Progress"
 date: 2023-08-31T15:49:21+08:00
-draft: true
+draft: false
 toc: false
 images:
 categories:
