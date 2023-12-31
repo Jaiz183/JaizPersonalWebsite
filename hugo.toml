@@ -43,7 +43,7 @@ paginate     = 10
   [params.logo]
     logoMark     = ">"
     logoText     = "$ /home/"
-    logoHomeLink = "/"
+    logoHomeLink = "https://jaiz183.github.io/JaizPersonalWebsite/"
     # Set true to remove the logo cursor entirely.
     logoCursorDisabled = false
     # Set to a valid CSS color to change the cursor in the logo.
