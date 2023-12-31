@@ -1,4 +1,4 @@
-baseurl      = "JaizPersonalWebsite/"
+baseurl      = "https://jaiz183.github.io/JaizPersonalWebsite/"
 title        = "Jaiz Jeeson's Personal Website"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
